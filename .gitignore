@@ -17,3 +17,13 @@ data/
 # Ignore logs and outputs
 logs/
 *.log
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
